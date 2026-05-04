@@ -30,7 +30,7 @@ test_automation/
 ### Step 1 — Clone or Download the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/kasun28/Playwright-project
 ```
 
 Or download the ZIP and extract it to your `D:` drive so the path is:
@@ -71,7 +71,7 @@ Open `Assignment 1 - Test cases.xlsx` and ensure the following columns are fille
 ### Step 5 — Run the Automation Script
 
 ```bash
-python test_automation.py --excel "Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
+python test_automation.py --excel "Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" 
 ```
 
 ### Step 6 — Check Results
